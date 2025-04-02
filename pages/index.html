@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="head">
+        <p class="title"> 📒 Tài Chính Cá Nhân K24_Rikkei</p>
+        <select class="select" onchange="logout()" id="select">
+            <option value="">Tài khoản</option>
+            <option value="logout">Đăng xuất</option>
+        </select>
+        <div id="confirmModal" class="modal">
+            <div class="modal-content">
+                <p class="confirm">Bạn có chắc chắn muốn đăng xuất?</p>
+                <button onclick="confirmLogout()">Có</button>
+                <button onclick="closeModal()">Không</button>
+            </div>
+        </div>
+    </div><br>
+    <div class="body">
+        <div class="body1">
+            <h2> 🎯 Kiểm soát chi tiêu thông minh </h2> <br>
+            <p>Theo dõi ngân sách và thu chi hằng tháng dễ dàng</p>
+        </div>
+    </div>
+    <div class="body2">
+        <h1> 📊 Quản Lý Tài Chính Cá Nhân</h1>
+    </div>
+    <div class="body3">
+        <p> 📅 Chọn tháng : </p>
+        <input type="month">
+    </div>
+    <div class="body4">
+        <p>💰 Ngân sách tháng :</p>
+        <input type="text" placeholder="VD:10000000">
+        <button>Lưu</button>
+    </div>
+    <div class="body5">
+        <p>Số tiền còn lại :</p>
+        
+    </div>
+    <div class="body6">
+        <p> 💼 Quản lý danh mục (theo tháng)</p> <br>
+        <div class="class1"> 
+            <input type="text" placeholder="Tên danh mục">
+            <input type="text" placeholder="Giới hạn (VND):">
+            <button>Thêm danh mục </button>
+        </div>
+    </div>
+    <div class="body7">
+        <input type="text" placeholder="Số tiền ">
+        <input type="text" placeholder="Tiền chi tiêu">
+        <input type="text" placeholder="Ghi chú " >
+        <button>Thêm</button>
+
+
+    </div>
+    <!-- <div class="body10">
+        <table>
+            <p>Thống kê chi tiêu hàng tháng </p>
+
+        </table>
+    </div> -->
+
+    <div class="footer">
+        <p>© 2025 Quản Lý Tài Chính Cá Nhân. by Hoàng Văn Quân!</p>
+    </div>
+</body>
+
+</html>
