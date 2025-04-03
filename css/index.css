@@ -313,26 +313,7 @@
     color: white;
 
 }
-.pages{
-    display: flex;
-    /* background-color: red; */
-    gap: 5px;
-    
-}
-.pages li{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-}
-.active{
-    background-color: tomato !important;
-}
+
 /* .body10{
     
     margin-left: 330px;
