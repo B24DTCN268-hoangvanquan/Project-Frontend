@@ -91,7 +91,9 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 
 .body4 {
@@ -103,8 +105,10 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
     margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .body4 button {
@@ -123,19 +127,95 @@
     padding-bottom: 20px;
     border-radius: 10px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
     margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
-.body6 {
-    /* text-align: center; */
+
+
+.body6{
     margin-left: 330px;
     margin-right: 330px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
     margin-top: 20px;
+    /* width: 768px;
+    height: 258px; */
+
+   
+    border-radius: 12px;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.body6 .add{
+    width: 163.16px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #22C55E;
+    color:white;
+    border: none;
+}
+.body6 input{
+    width: 246.41px;
+    height: 42px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+.body6 h3{
+    margin-left: 30px;
+}
+.body6 .content{
+    margin-left: 15px;
+}
+.body6 p{
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+.body6 .list{
+    display: flex;
+    /* border-bottom: px solid rgb(214, 214, 214); */
+    margin-left: 20px;
+}
+.body6 .list1{
+    margin-left: 300px ;
+}
+
+.body6 button {
+    font-size: 15px;
+    color:red;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+/* .body6 .button_edit{
+    font-size: 20px;
+    color:red;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid white;
+} */
+
+/* .body6 {
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .body6 p {
@@ -163,7 +243,7 @@
     border: 0px;
     background-color: rgb(59, 234, 73);
     color: white;
-}
+} */
 
 
 
@@ -174,8 +254,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
+
     margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 
 }
 .body7 input{
@@ -197,7 +280,114 @@
     border-radius: 5px;
 }
 
+.body8 {
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+.body8 p{
+    padding-left: 40px;
+}
+.body8 .class2{
+    text-align: center;
+    padding-top: 20px;
+}
+.class2 input{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+
+}
+.class2 button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+
+}
+.pages{
+    display: flex;
+    /* background-color: red; */
+    gap: 5px;
+    
+}
+.pages li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.active{
+    background-color: tomato !important;
+}
+/* .body10{
+    
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.body10 .class3{
+    padding-top: 10px;
+    
+} */
+.body10{
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    /* width: 768px;
+    height: 190px; */
+    border-radius: 12px;
+    background-color: white;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    font-weight: bold;
+    color: #333;
+}
+td {
+    color: #666;
+}
+.body h3{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.body table{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
 
 .footer {
     background-color: blue;
