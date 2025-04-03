@@ -5,9 +5,12 @@
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 }
+body {
+    background-color: rgb(237, 237, 237);
 
+}
 .head {
-    background-color: rgb(38, 18, 219);
+    background-color: rgb(25, 0, 252);
     color: white;
     height: 60px;
     display: flex;
@@ -66,7 +69,7 @@
 }
 
 .body1 {
-    background-color: rgb(67, 56, 202);
+    background-color: rgb(21, 0, 247);
     width: 768px;
     height: 150px;
     border-radius: 12px;
@@ -269,12 +272,17 @@
     border-radius: 5px;
     
 }
+.pla::placeholder {
+    color: black; 
+    opacity: 1; 
+    
+}
 .body7 button{
     margin-left: 20px;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #6366F1;
+    background-color: #0004f6;
     color: white;
     border: 0px;
     border-radius: 5px;
@@ -313,6 +321,43 @@
     color: white;
 
 }
+
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa các nút */
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pagination button.active {
+    background-color:blue; /* Màu xanh lá */
+    color: white;
+    border: 1px solid blue;
+}
+
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
 
 /* .body10{
     
