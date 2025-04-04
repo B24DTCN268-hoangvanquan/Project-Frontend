@@ -13,6 +13,9 @@ function closeModal() {
     document.getElementById("select").value = "";
 }
 
+
+
+
 // phân trang lịch sử giao dịch 
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".pagination button");
